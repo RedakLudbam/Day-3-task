@@ -1,0 +1,64 @@
+1.JSON ITERATE ALL LOOPS
+
+//for loop
+
+var array = [1,2,3,4,5,"guvi","geek"]
+for(var i=0; i<array.length; i++){
+    console.log(i)
+}
+
+for (let i=10; i>0; i--){
+    console.log(i)
+}
+//for in loop
+//objects, arrays
+
+var obj = {
+    name:"vidhya",
+    city:"chennai"
+}
+for (var key in obj){
+    console.log(key)
+    // console.log(obj.name,obj.city)
+}
+
+//for of loop
+//array
+
+var cars = ["BMW","volvo","Mini"]
+
+for (var index of cars){
+    console.log(index)
+    console.log(cars.index)
+}
+
+for (var key in cars){
+    // console.log(key)
+    console.log(cars[key])
+}
+
+Create own resume in JSON format.
+
+const resume = 
+    [
+        {
+    "name": "M Abdul Kader",
+    "Occupation":"student"
+},
+    {
+    "qualification":"12thpass",
+    "place":"trichy"
+},
+]
+ console.log(resume)
+
+ 3.Window, screen ,document in javascript.
+ 
+ => window is not but representation of document objects.
+ =>its shows the way to read or acces the documents objects.
+ => its has elements,console etc.
+
+ =>screen is nothing but browser page .
+
+ =>doument is the object where contains key roots of objects.
+
